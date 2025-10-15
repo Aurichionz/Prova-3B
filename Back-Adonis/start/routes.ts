@@ -65,6 +65,6 @@ router.group(() => {
   const MovimentacaoController = () => import('#controllers/movimentacao_controller')
   router.resource('movimentacoes', MovimentacaoController)
 
-  const AplicacaoFinanceiraController = () => import('#controllers/aplicacao_financeira_controller')
+  const AplicacaoFinanceiraController = () => import('#controllers/AplicacaoFinanceira_controller')
   router.resource('aplicacoesFinanceiras', AplicacaoFinanceiraController)
 }).use([middleware.auth()])

@@ -1,7 +1,7 @@
 import type { HttpContext } from '@adonisjs/core/http'
-import { createAplicacaoFinanceira, updateAplicacaoFinanceira } from '#validators/aplicacao_financeira'
-import AplicacaoFinanceiraPolicy from '#policies/aplicacao_financeira'
-import AplicacaoFinanceiraService from '#services/aplicacao_financeira_service'
+import { createAplicacaoFinanceira, updateAplicacaoFinanceira } from '#validators/AplicacaoFinanceira'
+import AplicacaoFinanceiraPolicy from '#policies/AplicacaoFinanceira'
+import AplicacaoFinanceiraService from '#services/AplicacaoFinanceiraService'
 import logger from '@adonisjs/core/services/logger'
 
 export default class AplicacoesFinanceirasController {

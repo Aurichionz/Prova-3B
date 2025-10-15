@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "#models/*": ["./Back-Adonis/app/models/*"],
+      "#services/*": ["./Back-Adonis/app/services/*"],
+      "#controllers/*": ["./Back-Adonis/app/controllers/*"],
+      "#validators/*": ["./Back-Adonis/app/validators/*"],
+      "#policies/*": ["./Back-Adonis/app/policies/*"]
+    }
+  }
+}

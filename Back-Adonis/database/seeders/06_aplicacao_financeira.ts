@@ -1,5 +1,5 @@
 import { BaseSeeder } from '@adonisjs/lucid/seeders'
-import AplicacaoFinanceira from '#models/aplicacao_financeira'
+import AplicacaoFinanceira from '#models/AplicacaoFinanceira'
 
 export default class AplicacaoFinanceiraSeeder extends BaseSeeder {
   public async run() {

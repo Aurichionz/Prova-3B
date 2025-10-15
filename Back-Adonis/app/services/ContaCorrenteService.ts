@@ -1,6 +1,6 @@
 import ContaCorrente from "#models/conta_corrente"
 import Movimentacao from "#models/movimentacao"
-import AplicacaoFinanceira from "#models/aplicacao_financeira"
+import AplicacaoFinanceira from "#models/AplicacaoFinanceira"
 
 export default class ContaCorrenteService {
   static async listarContas() {

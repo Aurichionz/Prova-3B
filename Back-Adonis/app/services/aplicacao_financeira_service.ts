@@ -1,5 +1,5 @@
-import AplicacaoFinanceira from '#models/aplicacao_financeira'
-import ContaCorrente from '#models/conta_corrente'
+import AplicacaoFinanceira from '#models/AplicacaoFinanceira'
+import ContaCorrente from '#models/ContaCorrente'
 
 export default class AplicacaoFinanceiraService {
   static async listarAplicacoes() {

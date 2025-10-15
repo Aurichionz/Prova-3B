@@ -1,8 +1,7 @@
 import { DateTime } from 'luxon'
 import { BaseModel, column, belongsTo } from '@adonisjs/lucid/orm'
 import type { BelongsTo } from '@adonisjs/lucid/types/relations'
-import ContaCorrente from './conta_corrente.js'
-
+import ContaCorrente from './ContaCorrente.js'
 export default class Movimentacao extends BaseModel {
   static table = 'movimentacoes'
 
