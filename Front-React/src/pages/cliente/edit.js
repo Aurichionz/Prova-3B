@@ -14,7 +14,7 @@ export default function EditCliente() {
 
     const [nomeCompleto, setNomeCompleto] = useState(cliente.nomeCompleto || '');
     const [email, setEmail] = useState(cliente.email || '');
-    const [senha, setSenha] = useState(''); 
+    const [senha, setSenha] = useState('');
     const [cpf, setCpf] = useState(cliente.cpf || '');
     const [cidade, setCidade] = useState(cliente.cidade || '');
     const [estado, setEstado] = useState(cliente.estado || '');
@@ -71,7 +71,7 @@ export default function EditCliente() {
             <NavigationBar />
             {load 
                 ? <Container className="d-flex justify-content-center mt-5">
-                    <OrbitProgress variant="spokes" color="#582770" size="medium" />
+                    <OrbitProgress variant="spokes" color="#e7ca39ff" size="medium" />
                   </Container>
                 : <Container className='mt-2'>
                     <div className="row">

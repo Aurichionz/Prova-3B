@@ -34,13 +34,13 @@ export const Icon = styled.img`
 
 export const Title = styled.h1`
     font-size: 48px;
-    color: #111;
+    color: #3956e7ff;
     margin-bottom: 5px;
 `;
 
 export const SubTitle = styled.h3`
     font-size: 24px;
-    color: #888;
+    color: #2c46c5ff;
     font-weight: 100;
     margin-bottom: 40px;
 `;
@@ -109,7 +109,7 @@ export const Submit = styled.input.attrs({ type: 'submit' })`
     box-sizing: border-box;
     width: 180px;
     height: 35px;
-    background-color: #e7ca39ff;
+    background-color: #3956e7ff;
     color: white;
     font-size: 16px;
     font-weight: bold;

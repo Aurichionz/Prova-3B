@@ -64,13 +64,6 @@ export default function FormLogin() {
     return (
         
         <Container>
-            <BoxIcon>
-                <div></div>
-                <BoxItem>
-                    <Icon src={Banco_logo}/>
-                </BoxItem>
-                <div></div>
-            </BoxIcon>
             <Title>Autenticação</Title>
             <SubTitle>Informe suas credenciais</SubTitle>
             {
