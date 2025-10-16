@@ -6,7 +6,7 @@ export default class UserSeeder extends BaseSeeder {
     // Criar gerente
     await User.create({
       nome_completo: 'Gerente Principal',
-      email: 'gerente@teste.com',
+      email: '',gerente@teste.com
       senha: '123456',
       papel_id: 1, 
     })

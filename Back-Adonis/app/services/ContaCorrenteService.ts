@@ -1,4 +1,4 @@
-import ContaCorrente from "#models/conta_corrente"
+import ContaCorrente from "#models/contaCorrente"
 import Movimentacao from "#models/movimentacao"
 import AplicacaoFinanceira from "#models/AplicacaoFinanceira"
 

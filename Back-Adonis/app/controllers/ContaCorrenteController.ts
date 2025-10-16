@@ -1,7 +1,7 @@
 import type { HttpContext } from '@adonisjs/core/http'
-import ContaCorrente from '#models/conta_corrente'
+import ContaCorrente from '#models/ContaCorrente'
 import logger from '@adonisjs/core/services/logger'
-import ContaCorrenteService from '#services/conta_corrente_service'
+import ContaCorrenteService from '#services/ContaCorrenteService'
 
 export default class ContaCorrenteController {
   async index({ request, response }: HttpContext) {

@@ -77,7 +77,7 @@ export default function FormLogin() {
                 load 
                 ?
                     <Container className="d-flex justify-content-center mt-5">
-                        <OrbitProgress variant="spokes" color="#582770" size="medium" text="" textColor="" />
+                        <OrbitProgress variant="spokes" color="#e7ca39ff" size="medium" text="" textColor="" />
                     </Container>
                 :
                     <>

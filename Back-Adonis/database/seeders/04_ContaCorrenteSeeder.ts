@@ -1,5 +1,5 @@
 import { BaseSeeder } from '@adonisjs/lucid/seeders'
-import ContaCorrente from '#models/conta_corrente'
+import ContaCorrente from '#models/ContaCorrente'
 import Cliente from '#models/cliente'
 
 export default class ContaCorrenteSeeder extends BaseSeeder {

@@ -59,7 +59,7 @@ router.group(() => {
   const ClienteController = () => import('#controllers/cliente_controller')
   router.resource('clientes', ClienteController)
 
-  const ContaCorrenteController = () => import('#controllers/conta_corrente_controller')
+const ContaCorrenteController = () => import('#controllers/ContaCorrenteController')
   router.resource('contasCorrentes', ContaCorrenteController)
 
   const MovimentacaoController = () => import('#controllers/movimentacao_controller')

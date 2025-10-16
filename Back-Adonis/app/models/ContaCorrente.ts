@@ -6,7 +6,7 @@ import Movimentacao from './movimentacao.js'
 import AplicacaoFinanceira from './AplicacaoFinanceira.js'
 
 export default class ContaCorrente extends BaseModel {
-  static table = 'contas_correntes'
+  public static table = 'contas_correntes'
 
   @column({ isPrimary: true })
   declare id: number
