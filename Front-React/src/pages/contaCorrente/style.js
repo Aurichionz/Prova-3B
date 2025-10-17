@@ -48,7 +48,7 @@ export const Submit = styled.input.attrs({ type: 'submit' })`
     box-sizing: border-box;
     width: 180px;
     height: 35px;
-    background-color: #582770;
+    background-color: #e7ca39ff;
     color: white;
     font-size: 16px;
     font-weight: bold;

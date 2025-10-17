@@ -3,26 +3,24 @@ import User from '#models/user'
 
 export default class UserSeeder extends BaseSeeder {
   public async run() {
-    // Criar gerente
     await User.create({
       nome_completo: 'Gerente Principal',
-      email: 'gerente@teste.com',
-      senha: '123456',
+      email: 'gerente@gmail.com',
+      senha: '160182',
       papel_id: 1,
     })
 
-    // Criar clientes (usuários)
     await User.create({
-      nome_completo: 'Ana',
-      email: 'cliente1@teste.com',
-      senha: '123456',
+      nome_completo: 'Ana Flávia',
+      email: 'nana@gmail.com',
+      senha: '20082007',
       papel_id: 2,
     })
 
     await User.create({
-      nome_completo: 'Helo',
-      email: 'cliente2@teste.com',
-      senha: '123456',
+      nome_completo: 'Vinicius',
+      email: 'vinicius@gmail.com',
+      senha: '10032007',
       papel_id: 2,
     })
   }

@@ -4,7 +4,8 @@ import { Table, Modal } from 'react-bootstrap';
 import { Client } from '../../api/client';
 import { VIEW, CREATE, EDIT, DELETE } from '../../utils/crud';
 import { getPermissions } from '../../service/PermissionService';
-import { Title, ButtonAtualizar, ButtonRemover } from './style';
+import { Title, ButtonAtualizar, ButtonRemover, TableHeader } from './style';
+
 
 export default function DataTable(props) {
 
@@ -40,15 +41,16 @@ export default function DataTable(props) {
       )}
       <hr/>
       <Table striped hover>
-        <thead>
-          <tr>
-            {props.rows.map((item, idx) => (
-              props.hide[idx] 
-              ? <th className='d-none d-md-table-cell' key={idx}>{item.toUpperCase()}</th>
-              : <th key={idx}>{item.toUpperCase()}</th>
-            ))}
-          </tr>
-        </thead>
+          <thead>
+      <tr>
+        {props.rows.map((item, idx) => (
+          props.hide[idx] 
+          ? <TableHeader className='d-none d-md-table-cell' key={idx}>{item}</TableHeader>
+          : <TableHeader key={idx}>{item}</TableHeader>
+        ))}
+      </tr>
+    </thead>
+
         <tbody>
           {props.data.map((element, rowIndex) => (
             <tr key={rowIndex}>
